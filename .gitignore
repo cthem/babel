@@ -1,0 +1,41 @@
+#
+# Project specific excludes
+#
+
+#
+# Default excludes
+#
+
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
+.directory
+target/
+build/
+
+# eclipse project file
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+
+
+# Misc
+*.swp
+release.properties
+pom.xml.releaseBackup
+pom.xml.tag 
+.gitlab-ci.yml
+*/arquillian.xml
